@@ -367,7 +367,7 @@ while test $# -ne 0; do
 done
 
 require_env
-check_for_local_changes
+#check_for_local_changes
 
 # deploy
 deploy "${REF:-`config_get ref`}"
